@@ -4,7 +4,7 @@ apt_update 'Update the apt cache daily' do
 end
 
 package 'tree'
-
+package 'python'
 package 'apache2'
 
 service 'apache2' do
